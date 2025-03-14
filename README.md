@@ -7,7 +7,7 @@ This Spark session will be used as the entry point for all Spark functionality
 Set the log level for the Spark session to reduce verbosity
 This will suppress most log messages, only displaying warnings and errors
 
-PART 1: DATA INGESTION
+# PART 1: DATA INGESTION
     Ingest structured data from telecom OSS databases
     """
     # Configure connection to source systems
@@ -15,7 +15,7 @@ PART 1: DATA INGESTION
       # Read data from multiple tables in parallel
     # Define a list of tables to ingest
 
-    # PART 2: TRANSFORMATION LAYER
+# PART 2: TRANSFORMATION LAYER
     Transform network inventory data into silver layer
     """
     # Read from bronze layer
